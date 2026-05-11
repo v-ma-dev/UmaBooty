@@ -1,0 +1,1 @@
+Uma Musume Hip Waist ratio table

@@ -1,0 +1,123 @@
+.table-page {
+  --table-main: #387b4e;
+  --table-secondary: #ffffff;
+  --table-accent: #f7d048;
+  --table-accent-soft: rgba(247, 208, 72, 0.32);
+
+  width: min(100%, 960px);
+  margin: 0 auto;
+  padding: 48px 24px;
+  box-sizing: border-box;
+  text-align: left;
+  color: var(--table-main);
+}
+
+.table-page h1 {
+  margin-top: 0;
+  color: var(--table-main);
+}
+
+.profile-table-wrap {
+  overflow-x: auto;
+  border: 2px solid var(--table-main);
+  border-radius: 8px;
+  background: var(--table-secondary);
+}
+
+.profile-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+.profile-table th,
+.profile-table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--table-main);
+  white-space: nowrap;
+}
+
+.profile-table th {
+  color: var(--table-secondary);
+  font-weight: 600;
+  background: var(--table-main);
+}
+
+.profile-table tbody tr {
+  background: var(--table-secondary);
+}
+
+.profile-table tbody tr:nth-child(even) {
+  background: var(--table-accent-soft);
+}
+
+.profile-table tbody tr:hover {
+  background: var(--table-accent);
+}
+
+.profile-link {
+  color: var(--table-main);
+  font-weight: 600;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+.profile-link:focus-visible {
+  outline: 2px solid var(--table-main);
+  outline-offset: 3px;
+}
+
+.sort-button {
+  width: 100%;
+  padding: 0;
+  border: 0;
+  color: inherit;
+  background: transparent;
+  font: inherit;
+  font-weight: inherit;
+  text-align: left;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.sort-button:focus-visible {
+  outline: 2px solid var(--table-accent);
+  outline-offset: 4px;
+}
+
+.sort-indicator {
+  min-width: 1ch;
+  color: var(--table-accent);
+  font-family: var(--mono);
+  font-size: 14px;
+  line-height: 1;
+  text-align: center;
+}
+
+.profile-table tr:last-child td {
+  border-bottom: 0;
+}
+
+.row-number-header,
+.row-number-cell {
+  width: 1%;
+  min-width: 44px;
+  text-align: right;
+  font-family: var(--mono);
+}
+
+.row-number-header {
+  color: var(--table-accent);
+}
+
+.ratio-cell {
+  font-weight: 700;
+}
+
+.profile-table td:nth-child(2),
+.profile-table th:nth-child(2) {
+  min-width: 180px;
+}
