@@ -936,6 +936,22 @@
     "shoe_size":"Left and right: 24.0cm"
   },
   {
+    "name":"Epiphaneia",
+    "url":"",
+    "japanese_name":"エピファネイア",
+    "voice_actor":"Hikari Senga",
+    "birthday":"February 11",
+    "height":"159cm",
+    "weight":"",
+    "three_sizes":"81 - 56 - 83",
+    "B":"81",
+    "W":"56",
+    "H":"83",
+    "school":null,
+    "dorm":null,
+    "shoe_size":null
+  },
+  {
     "name":"Espoir City",
     "url":"https:\/\/gametora.com\/umamusume\/characters\/espoir-city",
     "japanese_name":"エスポワールシチー",
@@ -2616,6 +2632,22 @@
     "shoe_size":null
   },
   {
+    "name":"Rulership",
+    "url":"",
+    "japanese_name":"ルーラーシップ",
+    "voice_actor":"Mizutama Umino",
+    "birthday":"May 15",
+    "height":"160cm",
+    "weight":"",
+    "three_sizes":"90 - 57 - 86",
+    "B":"90",
+    "W":"57",
+    "H":"86",
+    "school":null,
+    "dorm":null,
+    "shoe_size":null
+  },
+  {
     "name":"Ryoka Tsurugi",
     "url":"https:\/\/gametora.com\/umamusume\/characters\/ryoka-tsurugi",
     "japanese_name":"都留岐涼花",
@@ -2731,6 +2763,22 @@
     "secrets":"実は、ひとりで観光できる程度にはフランス語を勉強している。 | 実は、けっこう焼肉奉行。",
     "secret_1":"実は、ひとりで観光できる程度にはフランス語を勉強している。",
     "secret_2":"実は、けっこう焼肉奉行。",
+    "school":null,
+    "dorm":null,
+    "shoe_size":null
+  },
+  {
+    "name":"Samson Big",
+    "url":"",
+    "japanese_name":"サムソンビッグ",
+    "voice_actor":"Miyari Nemoto",
+    "birthday":"April 14",
+    "height":"143cm",
+    "weight":"",
+    "three_sizes":"72 - 51 - 72",
+    "B":"72",
+    "W":"51",
+    "H":"72",
     "school":null,
     "dorm":null,
     "shoe_size":null
